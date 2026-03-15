@@ -23,7 +23,7 @@ Bu proje, telekomünikasyon sektöründeki müşterilerin şirketi terk etme (Ch
    * **Balanced Modeller:** Veri setindeki %73 - %27 dengesizliğini çözmek için sınıf ağırlıkları (`class_weight='balanced'`) ayarlandı ve en güçlü 3 model (Lojistik Regresyon, LightGBM, CatBoost) seçildi. (Recall: ~%79)
    * **Tuned Model (Final):** Şampiyon model olarak seçilen **CatBoost**, `GridSearchCV` ile hiperparametre optimizasyonuna sokularak maksimum potansiyeline ulaştırıldı. (Recall: %82)
 
-## 🏆 Final Model Performansı: CatBoost (Tuned)
+## Final Model Performansı: CatBoost (Tuned)
 Final modelinin odak noktası, kaçacak olan müşterileri gözden kaçırmamak adına **Recall (Duyarlılık)** metriğini maksimize etmek olarak belirlenmiştir.
 
 * **Accuracy:** %73
